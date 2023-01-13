@@ -1,0 +1,24 @@
+{
+  "name": "facebook-login-page-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tailwindcss -i ./dev/input.css -o ./src/css/output.css --watch",
+    "build": "tailwindcss -i ./dev/input.css -o ./src/css/output.css --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-jr1/facebook-login-page-clone.git"
+  },
+  "author": "Justin Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-jr1/facebook-login-page-clone/issues"
+  },
+  "homepage": "https://github.com/justin-jr1/facebook-login-page-clone#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
